@@ -14,5 +14,16 @@ const loadEnv = (): string => {
     return env;
 };
 
+const loadVar = (
+        envVar: string | number | boolean, 
+        convert = false
+    ): string | number | boolean => {
+        if (typeof envVar !== 'string' || !convert) {
+            return envVar;
+        }
+
+        return JSON.parse(envVar);
+    };
 
 export default loadEnv;
+export { loadVar }

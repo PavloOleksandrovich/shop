@@ -1,11 +1,17 @@
 export interface IConfig {
-    ENV: string;
+    SETTINGS: ISettingsConfig;
     SERVER: IServerConfig;
     DATABASE: IDatabaseConfig;
 }
 
+export interface ISettingsConfig {
+    ENV: string;
+    PRODUCTION: boolean;
+}
+
 export interface IServerConfig {
     PORT: number;
+    GRAPHQL_ENDPOINT: string;
 }
 
 export interface IDatabaseConfig {

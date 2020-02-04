@@ -4,11 +4,13 @@ declare global {
         interface ProcessEnv {
             [key: string]: string | undefined;
 
-            // ENV
+            // SETTINGS
             NODE_ENV: string | undefined;
+            PRODUCTION: string;
 
             // SERVER
             PORT: number;
+            GRAPHQL_ENDPOINT: string;
 
             // DATABASE
             DATABASE_NAME: string;
@@ -19,4 +21,9 @@ declare global {
     }
 }
 
-export { IConfig, IServerConfig, IDatabaseConfig } from './config';
+export { 
+    IConfig, 
+    ISettingsConfig, 
+    IServerConfig, 
+    IDatabaseConfig 
+} from './config';

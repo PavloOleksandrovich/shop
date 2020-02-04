@@ -1,10 +1,11 @@
 import React, { FC } from 'react';
+import Header from '../Header/Header';
 
 type Props = {};
 
 const App: FC<Props> = () => {
   return (
-    <h1>Shop</h1>
+    <Header />
   );
 }
 

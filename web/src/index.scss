@@ -1,0 +1,23 @@
+/* ===========================
+	    Reset
+   =========================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ===========================
+        Typography
+   =========================== */
+body {
+    font-family: hind, sans-serif;
+}

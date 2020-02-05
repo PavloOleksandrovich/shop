@@ -4,3 +4,4 @@ export const root = join.bind(this, __dirname, '../../');
 
 export { default as loadEnv } from './load-env.util';
 export { default as config } from './config.util';
+export { default as connectMongo } from './connect-mongo.util';

@@ -1,7 +1,8 @@
 import express from 'express';
 import graphqlHTTP from 'express-graphql';
 
-import { config, connectMongo } from './utils';
+import { connectMongo } from './utils';
+import { config } from '../../common/utils';
 import schema from './schemas';
 
 const server = express();

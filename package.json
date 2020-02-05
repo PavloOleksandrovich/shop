@@ -4,7 +4,11 @@
   "repository": "git@github.com:PavloOleksandrovich/shop.git",
   "author": "Pavlo Makukha <7734.why.not@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
   "devDependencies": {
+    "@types/node": "^13.7.0",
     "concurrently": "^5.1.0"
   },
   "scripts": {

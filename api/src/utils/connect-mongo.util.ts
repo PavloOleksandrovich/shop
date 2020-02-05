@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-import { config } from '.';
+import { config } from '../../../common/utils';
 
 export default (callback: Function) => {
     mongoose.connect(config.DATABASE.URI, {

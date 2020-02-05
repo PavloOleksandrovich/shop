@@ -8,8 +8,6 @@
 
 # misc
 .DS_Store
-*.env
-!example.env
 
 # locks
 package-lock.json

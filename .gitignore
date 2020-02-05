@@ -9,6 +9,10 @@
 # misc
 .DS_Store
 
+# environment
+*.env
+!example.env
+
 # locks
 package-lock.json
 yarn.lock
